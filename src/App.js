@@ -10,9 +10,9 @@ class App extends Component {
         <div className="row justify-content-center align-items-center d-flex full-height">
           <div className="col-12 col-md-8 text-center">
             <img alt="image" className="App-logo" src={logo} />
-            <h1>Score: 0</h1>
+            <h1 className="score-heading">Score: 0</h1>
             <div className="form-group">
-              <textarea class="form-control" rows="3"></textarea>
+              <textarea class="form-control comment-input" rows="3"></textarea>
             </div>
           </div>
         </div>
