@@ -2,9 +2,12 @@ const sentiment = require('sentiment')
 
 const result = (text) => {
   const scoreValue = sentiment(text)
+  let scoreFinal = scoreValue.comparative * 100
+  scoreFinal = scoreFinal.toFixed(2)
+
   return {
-    score: scoreValue.score,
-    value: scoreValue
+    totalScore: scoreValue.score,
+    score: scoreFinal,
   }
 }
 
