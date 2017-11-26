@@ -7,7 +7,8 @@
     "express": "^4.16.2",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
-    "sentiment": "^4.1.0"
+    "sentiment": "^4.1.0",
+    "superagent": "^3.8.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.17"
