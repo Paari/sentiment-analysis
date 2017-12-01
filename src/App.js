@@ -24,7 +24,7 @@ class App extends Component {
 
   getScore(inputMessage) {
     // hit the api and get the score
-    request.post('http://doremember.dev')
+    request.post('http://doremember.dev:5000')
     .type('application/x-www-form-urlencoded')
     .send({'message': inputMessage})
     .end( (err, res) => {
